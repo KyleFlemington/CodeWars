@@ -5,11 +5,11 @@
 function XO(str) {
     let exes = 0;
     let ohs = 0;
-    for( var i = 0; i < str.length; i++; ) {
-      if ( str[i] == 'x') {
+    for(let i = 0; i < str.length; i++) {
+      if ( str[i].toLowerCase() == 'x') {
         exes++;
-      } else if ( str[i] == 'o') {
-        ohs++
+      } else if ( str[i].toLowerCase() == 'o') {
+        ohs++;
       }
     }
    return exes === ohs
