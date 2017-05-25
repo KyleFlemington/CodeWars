@@ -1,5 +1,4 @@
 function accum(s) {
-	for(var = 0; i < accum.length; i++) {
-    accum.forEach()
+	for(var = 0; i < s.length; i++) {
   }
 }
